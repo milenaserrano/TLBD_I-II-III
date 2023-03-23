@@ -1,0 +1,1 @@
+integridade referencial: banco de dados seguro e elimina a redundancia dos dados (problema q compromete o des de um software)

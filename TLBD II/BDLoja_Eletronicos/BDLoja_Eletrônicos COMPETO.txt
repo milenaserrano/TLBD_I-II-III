@@ -1,0 +1,293 @@
+create database BDEquipamentos;
+use BDEquipamentos;
+
+create table tabClientes
+( CodigoClientes int NOT NULL AUTO_INCREMENT,
+NomeClientes                   VARCHAR (40),
+EndercoClientes                VARCHAR (30),
+CidadeClientes                 VARCHAR (30),
+CEPClientes                    VARCHAR (10),
+TelefoneClientes               VARCHAR (15),
+CPFClientes                    VARCHAR (15),
+RGClientes                     VARCHAR (12),
+EmailClientes                  VARCHAR (50),
+PRIMARY KEY (CodigoClientes));
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Caetano Veloso","Rua 10, 100","Orlândia","SP","16-3826-2560","123.654.654-78","85.654.852-2","Caetano.veloso@Yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Renato Russo","Rua 10 300","Orlândia","SP","16-3826-2561","123.654.654-79","23.999.654-8","renato.russo@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Cazuza de Souza","Rua 9 de julho 500","Ribeirão Preto","SP","16-3826-3065","123.987.654-80	","57.654.654-8","cazuza.souza@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Paulo Ricardo","Rua 15 de novembro, 600","	Ribeirão Preto","SP","16-3726-2563","123.654.654-81","23.654.654-8","paulo.ricardo@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Zelia Duncan","Rua 18, 200","Barretos","SP","16-3826-5036","654.654.654-82","12.654.898-8","zelio.duncan@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Renato Teixeira","Avenida 10, 1000","Orlândia","SP","16-3926-3030","123.654.654-83","94.654.654-9","renato.teixeira@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Leonardo Oliveira","Avenida João Fiusa, 500","Ribeirão Preto","SP","16-2626-3516","654.654.878-84",	"23.654.654-9","leonardo.oliveira@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Sérgio Reis","Avenida Independência, 600","Ribeirão Preto","SP","16-3826-2567","123.654.654-85","85.654.852-9","sergio.reis@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Daniel da Silva","Rua Presidente Vargas, 1000","São Paulo","SP","16-3826-2568","123.999.654-86", "13.654.654-7","daniel.silva@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Roberto Carlos","Rua Sérgio Ribeiro, 300","Rio de Janeiro","RJ","16-3926-3620","357.654.654-87","12.654.654-7","roberto.carlos@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Chico Buarque de Holanda","Rua 20, 450","Guaíra","SP","16-6555-3630","123.654.654-88","13.987.654-0","chico.buarque@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Erasmo Carlos","Rua Marcanã, 700","Rio de Janeiro","RJ","16-3826-2571","123.654.898-89","12.654.654-8","erasmo.carlos@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("João Gilberto","Rua Presidente Dutra, 600","Rio de Janeiro","RJ","16-6826-2572","954.654.654-90","64.654.654-8","joao.gilberto@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Tom Jobim","Rua Tom Jobim, 200","Rio de Janeiro","RJ","16-3826-2573","123.654.654-91","23.654.654-8","tom.jobim@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Pitty Barbosa","Avenida Rebouças, 400","São Paulo","SP","16-3025-6674","123.654.368-92","64.654.878-8","pitty.barbosa@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Beto Barbosa","Avenida Tiradentes, 300","São Paulo","SP","16-3826-2575","123.753.654-93","37.654.654-7",	"beto.barbosa@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Anita Roberta Souza","Rua Major Nicácio, 500","Franca","SP","16-6826-2536","853.654.654-94","13.654.654-8","anita.souza@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Marcelo Costa","Rua das Euviras, 300","Belo Horizonte","MG","16-3826-2577","325.654.654-95","13.654.898-9","marcelo.costa@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("João Manoel Silva","Rua Augusta, 400","São Paulo","SP","16-6526-2578","123.654.654-96","94.654.654-9","joao.silva@yahoo.com.br");
+
+insert into tabClientes (NomeClientes,EndercoClientes,CidadeClientes,CEPClientes,TelefoneClientes,CPFClientes,RGClientes,EmailClientes) values ("Carlos Henrique Oliveira","Avenida Costa e Silva, 600","Minas Gerais","SP","16-3826-2579","123.954.654-97","23.354.365-5","carlos.oliveira@yahoo.com.br");
+
+select * from tabClientes;
+/* ******************************************************************************************************************************** */
+
+create table tabProdutos
+( CodigoProduto int NOT NULL AUTO_INCREMENT,
+DescricaoProduto                  VARCHAR (30),
+MarcaProduto                      VARCHAR (20),
+QuantidadeProduto                 float,
+PRIMARY KEY (CodigoProduto));
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Câmera Digital","Sony","10");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Tv 50 polegadas","Toshiba","15");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Monitor","LG","20");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Teclado Universal","Itautec","18");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Caixa de Som","Tech","35");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Mouse","Itautec","50");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Pen Drive","Itautec","40");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Drive CD/DVD","Intel","28");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Impressora Laser","HP","15");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Impressora Jato de Tinta","Epson","23");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Gabinete","Toshiba","18");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Webcan","Itautec","32");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Placa Mãe","intel","44");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Microprocessador","Intel","28");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Fonte de energia","LG","17");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Celular","Nokia","45");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Ultrabook","Sansung","100");
+
+
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Tablet","Apple","16");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Play Station","Samsung","22");
+
+insert into tabProdutos (DescricaoProduto,MarcaProduto,QuantidadeProduto) values ("Notebook","Sony","26");
+
+select * from tabProdutos;
+
+/* ******************************************************************************************************************************** */
+
+create table tabFunc
+( CodigoFunc int NOT NULL AUTO_INCREMENT,
+NomeFunc                   VARCHAR (40),
+EndercoFunc                VARCHAR (30),
+CidadeFunc                 VARCHAR (30),
+CEPFunc                    VARCHAR (10),
+TelefoneFunc               VARCHAR (15),
+CPFFunc                    VARCHAR (15),
+RGFunc                     VARCHAR (12),
+EmailFunc                  VARCHAR (50),
+SexoFunc                   VARCHAR (1) ,
+NdependenteFunc            FLOAT,
+PRIMARY KEY (CodigoFunc));
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Rogério Ceni","Rua 10, 100","Orlândia","SP","16-3826-2560","123.654.654-78","	85.654.852-2","Rogerio.Ceni@Yahoo.com.br","Masculino","3");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Messi Argentino","Rua 10, 300","Orlândia","SP","16-3826-2561","123.654.654-79","23.999.654-8","Messi.argentino@yahoo.com.br","Masculino","2");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Neymar Ribeiro","Rua 9 de julho, 500","Ribeirão Preto","SP","16-3826-3065","123.987.654-80","57.654.654-8","Neymar.ribeiro@yahoo.com.br","Masculino","5");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Thiago Silva","Rua 15 de novembro, 600","Ribeirão Preto","SP","16-3726-2563","123.654.654-81","23.654.654-8","Thiago.silva@yahoo.com.br","Masculino","1");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Julio Cesar","Rua 18, 200","Barretos","SP","16-3826-5036","654.654.654-82","12.654.898-8","Julio.cesar@yahoo.com.br","Masculino","2");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Daniel Alves","Avenida 10, 1000","Orlândia","SP","16-3926-3030","123.654.654-83","94.654.654-9","Daniel.alves@yahoo.com.br","Masculino","5");
+ 
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Cristiano Ronaldo","Avenida João Fiusa, 500","Ribeirão Preto","SP","16-2626-3516","654.654.878-84","23.654.654-9","Cristiano.ronaldo@yahoo.com.br","Masculino","6");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Iker Casillas","Avenida Independência, 600","Ribeirão Preto","SP","16-3826-2567","123.654.654-85","85.654.852-9","Iker.casillas@yahoo.com.br","Masculino","3");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Diego Cavalieri","Rua Presidente Vargas, 1000","São Paulo","SP","16-3826-2568","123.999.654-86","13.654.654-7","Diego.cavalieri@yahoo.com.br","Masculino","2");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("David Luiz","Rua Sérgio Ribeiro, 300","Rio de Janeiro","RJ","16-3926-3620","357.654.654-87","12.654.654-7","David.luiz@yahoo.com.br","Masculino","4");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Victor Valdes","Rua 20, 450","Guaíra","SP","16-6555-3630","123.654.654-88","13.987.654-0","Victor.valdes@yahoo.com.br","Masculino","2");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Pepe Reina","Rua Marcanã, 700","Rio de Janeiro","RJ","16-3826-2571","123.654.898-89","12.654.654-8","Pepe.reina@yahoo.com.br","Masculino","5");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Gerard Piqué","Rua Presidente Dutra, 600","Rio de Janeiro","RJ","16-6826-2572","954.654.654-90","64.654.654-8","Gerard.pique@yahoo.com.br","Masculino","3");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Sérgio Ramos","Rua Tom Jobim, 200","Rio de Janeiro","RJ","16-3826-2573","123.654.654-91","23.654.654-8","Sergio.ramos@yahoo.com.br","Masculino","5");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("David Villa","Avenida Rebouças, 400","São Paulo","SP","16-3025-6674","123.654.368-92","64.654.878-8","David.villa@yahoo.com.br","Masculino","6");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Andrés Iniesta","Avenida Tiradentes, 300","São Paulo","SP","16-3826-2575","123.753.654-93","37.654.654-7","Andres.iniesta@yahoo.com.br","Masculino","2");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("David Silva","Rua Major Nicácio, 500","Franca","SP","16-6826-2536","853.654.654-94","13.654.654-8","David.silva@yahoo.com.br","Masculino","1");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Juan Mata","Rua das Euviras, 300","Belo Horizonte","MG","16-3826-2577","325.654.654-95","13.654.898-9","Juan.mata@yahoo.com.br","Masculino","2");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Álvaro Arbeloa","Rua Augusta, 400","São Paulo","SP","16-6526-2578","123.654.654-96","94.654.654-9","Alvaro.arbeloa@yahoo.com.br","Masculino","3");
+
+insert into tabFunc (NomeFunc,EndercoFunc,CidadeFunc,CEPFunc,TelefoneFunc,CPFFunc,RGFunc,EmailFunc,SexoFunc,NdependenteFunc) values ("Fernando Torres","Avenida Costa e Silva, 600","Ribeirão Preto","SP","16-3826-2579","123.954.654-97","23.354.365-5","Fernando.torres@yahoo.com.br","Masculino","4");
+
+select * from tabFunc;
+
+/* ******************************************************************************************************************************************************************************************************************************************************************************************************************* */
+
+create table Tabfornecedores
+( Códigofor int NOT NULL AUTO_INCREMENT,
+nomefor                 VARCHAR (40),
+endereçofor             VARCHAR (30),
+cidadefor               VARCHAR (30),
+cepfor                  VARCHAR (10),
+fonefor                 VARCHAR (15),
+cnpjfor                 VARCHAR (15),
+rffo                    VARCHAR (12),
+emailfor                VARCHAR (50),
+sitefor                 VARCHAR (40) ,
+PRIMARY KEY (Códigofor));
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Magazine Luiza","Rua 10, 100","Orlândia","SP","16-3826-2560","123.654.654-78","85.654.852-2","Vendedor.Joao@yahoo.com.br","Magazineluiza.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Casas Bahia","Rua 10, 300","Orlândia","SP","16-3826-2561","123.654.654-79","23.999.654-8","Vendedor.Jose@yahoo.com.br","Casasbahia.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Lojas Americanas","Rua 9 de julho, 500","Ribeirão Preto","SP","16-3826-3065","123.987.654-80","57.654.654-8","Vendedora.maria@yahoo.com.br","Lojasamericanas.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Wall Mart","Rua 15 de novembro, 600","Ribeirão Preto","SP","16-3726-2563","123.654.654-81","23.654.654-8","Vendedor.carlos@yahoo.com.br","Wallmart.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Carrefour","Rua 18, 200","Barretos","SP","16-3826-5036","654.654.654-82","12.654.898-8","Vendedor.sergio@yahoo.com.br","Carrefour.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Shoptime","Avenida 10, 1000","Orlândia","SP","16-3926-3030","123.654.654-83","94.654.654-9","Vendedor.ronaldo@yahoo.com.br","Shoptime.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Claro","Avenida João Fiusa, 500","Ribeirão Preto","SP","16-2626-3516","654.654.878-84","23.654.654-9","Vendedor.aguinaldo@yahoo.com.br","Claro.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Vivo","Avenida Independência, 600","Ribeirão Preto","SP","16-3826-2567","123.654.654-85","85.654.852-9","Vendedora.claudia@yahoo.com.br","Vivo.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Oi","Rua Presidente Vargas, 1000","São Paulo","SP","16-3826-2568","123.999.654-86","13.654.654-7","Vendedora.andreia@yahoo.com.br","Oi.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Fnac","Rua Sérgio Ribeiro, 300","Rio de Janeiro","RJ","16-3926-3620","357.654.654-87","12.654.654-7","Vendedor.paulo@yahoo.com.br","Fnac.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Ponto Frio","Rua 20, 450","Guaíra","SP","16-6555-3630","123.654.654-88","13.987.654-0","Vendedor.fernando@yahoo.com.br","Pontofrio.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Extra","Rua Marcanã, 700","Rio de Janeiro","RJ","16-3826-2571","123.654.898-89","12.654.654-8","Vendedor.rogerio@yahoo.com.br","Extra.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Pão de Açucar","Rua Presidente Dutra, 600","Rio de Janeiro","RJ","16-6826-2572","954.654.654-90","64.654.654-8","Vendedor.wagner@yahoo.com.br","Pãodeaçucar.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Submarino","Rua Tom Jobim, 200","Rio de Janeiro","RJ","16-3826-2573","123.654.654-91","23.654.654-8","Vendedor.luiz@yahoo.com.br","Submarino.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Ricardo Eletro","Avenida Rebouças, 400","São Paulo","SP","16-3025-6674","123.654.368-92","64.654.878-8","Vendedor.sandro@yahoo.com.br","Ricardoeletro.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Fast","Avenida Tiradentes, 300","São Paulo","SP","16-3826-2575","123.753.654-93","37.654.654-7","Vendedor.matias@yahoo.com.br","Fast.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Kabum","Rua Major Nicácio, 500","Franca","SP","16-6826-2536","853.654.654-94","13.654.654-8","Vendedor.aparecido@yahoo.com.br","Kabum.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Saraiva","Rua das Euviras, 300","Belo Horizonte","MG","16-3826-2577","325.654.654-95","13.654.898-9","Vendedora.marlene@yahoo.com.br","Saraiva.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Eletro Zema","Rua Augusta, 400","São Paulo","SP","16-6526-2578","123.654.654-96","94.654.654-9","Vendedora.sandra@yahoo.com.br","Eletrozema.com.br");
+
+insert into Tabfornecedores (nomefor,endereçofor,cidadefor,cepfor,fonefor,cnpjfor,rffo,emailfor,sitefor) values ("Mercado Livre","Avenida Costa e Silva, 600","Ribeirão Preto","SP","16-3826-2579","123.954.654-97","23.354.365-5","Vendedor.silvio@yahoo.com.br","Mercadolivre.com.br");
+
+select * from Tabfornecedores;
+
+************************ CONSULTAS **************************************
+
+/* Criar uma consulta que mostre apenas os clientes da cidade e Orlândia */
+select CidadeClientes from tabClientes;
+
+/* Criar uma consulta que mostre todos os clientes que tenham nome começado com a a letra R */			
+select NomeClientes from tabClientes where NomeClientes like "R%";
+
+/* Criar uma consulta que mostre apenas os clientes do estado de São Paulo ou Minas Gerais */
+select CidadeClientes from tabClientes where NomeClientes like "São Paulo%" or "Minas Gerais%";
+
+/* Criar uma consulta que mostre apenas clientes que tenham email */ 
+select EmailClientes from tabClientes where EmailClientes like "C%";
+
+/* Criar uma consulta que mostre apenas clientes que tenham telefone diferente de 16-3826-2567 */ 
+select NomeClientes from tabClientes where TelefoneClientes <> "16-3826-2567";
+
+/* Criar uma consulta que mostre apenas produtos da marca Itautec */
+select DescricaoProduto from tabProdutos where MarcaProduto like "Itautec%";
+
+/* Criar uma consulta que mostre apenas produtos da marca Epson */
+select DescricaoProduto from tabProdutos where MarcaProduto like "Epson%";
+
+/* Criar uma consulta que mostre apenas produtos com quantidade superiores a 25 */
+select QuantidadeProduto from tabProdutos where QuantidadeProduto > 25 ;
+
+/* Criar uma consulta que mostre apenas produtos que tenham descrição que começam com a letra D */
+select DescricaoProduto from tabProdutos where DescricaoProduto like "D%";
+
+/* Criar uma consulta que mostre apenas produtos que tenham descrição que terminam com a letra A */
+select DescricaoProduto from tabProdutos where DescricaoProduto like "%A";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
